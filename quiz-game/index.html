@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <fieldset id="categories">
+        <legend>Categories</legend>
+
+        <div>
+            <input type="radio" id="science" name="categories" value="Science" />
+            <label for="science">Science</label>
+        </div>
+
+        <div>
+            <input type="radio" id="geography" name="categories" value="Geography" />
+            <label for="geography">Geography</label>
+        </div>
+        <div>
+            <input type="radio" id="literature" name="categories" value="Literature" />
+            <label for="literature">Literature</label>
+        </div>
+        <div>
+            <input type="radio" id="technology" name="categories" value="Technology" />
+            <label for="technology">Technology</label>
+        </div>
+        <div>
+            <input type="radio" id="astronomy" name="categories" value="Astronomy" />
+            <label for="astronomy">Astronomy</label>
+        </div>
+    </fieldset>
+
+    <div id="quiz">
+        <h1> Quiz</h1>
+        <h2>Select a category to begin</h2>
+        <div id="question"></div>
+        <div id="choices"></div>
+        <button id="submit">Submit Answer</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
